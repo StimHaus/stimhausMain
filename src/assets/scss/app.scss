@@ -49,3 +49,101 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+@font-face {
+	font-family: 'Conthrax';
+	src: url('../fonts/conthrax-sb.eot');
+	src: local('☺'), url('../fonts/conthrax-sb.woff') format('woff'), url('../fonts/conthrax-sb.ttf') format('truetype'), url('../fonts/conthrax-sb.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+	font-family: 'Conthrax';
+	font-size: 2em;
+  vertical-align: middle;
+	display: inline-block;
+}
+
+.sticky {
+  width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+.top-bar {
+	box-shadow: 0px .5em 3px rgba(100,100,100,.8);
+	border-bottom: 1px solid rgba(100,100,100,.2);
+}
+
+.top-bar-right a {
+	color: #FFF;
+}
+
+.top-bar-right li {
+	border-radius: 1em;
+}
+.top-bar-right li:hover {
+	background: #444;
+}
+
+.menu-icon.dark {
+	position: absolute;
+	right: 5px;
+	top: 40px;
+}
+
+ul.submenu {
+  background: #fcc95d;
+	border-radius: 1em;
+	border: 0px transparent;
+	box-shadow: 1px 2px 3px #333;
+}
+
+ul.submenu a {
+	color: #131313;
+}
+
+ul.submenu li:hover a {
+	color: #efefef;
+}
+.menu {
+	margin-top: 5px;
+}
+.menu a {
+	font-size: 1.25em;
+}
+.center {
+	text-align: center;
+}
+
+.callout {
+	border-radius: 0 0 1em 1em;
+}
+
+h3 {
+  color: #4cbd3d;
+}
+
+button.quote {
+	padding: .5em;
+	color: #efefef;
+	background: #343434;
+	border-radius: .5em;
+	font-size: 1.5em;
+	transition: .2;
+}
+
+button.quote:hover {
+	background: #565656;
+	color: #dedede;
+
+}
